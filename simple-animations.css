@@ -1,0 +1,185 @@
+.slide-up {
+    -webkit-transform: translateY(150px);
+    -ms-transform: translateY(150px);
+    transform: translateY(150px);
+    -webkit-animation: slide-up 0.8s ease forwards;
+    animation: slide-up 0.8s ease forwards;
+}
+
+@-webkit-keyframes slide-up {
+    to {
+        transform: translateY(0);
+        -webkit-transform: translateY(0);
+        -moz-transform: translateY(0);
+        -o-transform: translateY(0);
+    }
+}
+
+@keyframes slide-up {
+    to {
+        transform: translateY(0);
+        -webkit-transform: translateY(0);
+        -moz-transform: translateY(0);
+        -o-transform: translateY(0);
+    }
+}
+
+.slide-down {
+    -webkit-transform: translateY(-150px);
+    -ms-transform: translateY(-150px);
+    transform: translateY(-150px);
+    -webkit-animation: slide-up 0.8s ease forwards;
+    animation: slide-up 0.8s ease forwards;
+}
+
+@-webkit-keyframes slide-down {
+    to {
+        transform: translateY(0);
+        -webkit-transform: translateY(0);
+        -moz-transform: translateY(0);
+        -o-transform: translateY(0);
+    }
+}
+
+@keyframes slide-down {
+    to {
+        transform: translateY(0);
+        -webkit-transform: translateY(0);
+        -moz-transform: translateY(0);
+        -o-transform: translateY(0);
+    }
+}
+
+.slide-left {
+    -webkit-transform: translateX(150px);
+    -ms-transform: translateX(150px);
+    transform: translateX(150px);
+    -webkit-animation: slide-up 0.8s ease forwards;
+    animation: slide-up 0.8s ease forwards;
+}
+
+@-webkit-keyframes slide-left {
+    to {
+        transform: translateX(0);
+        -webkit-transform: translateX(0);
+        -moz-transform: translateX(0);
+        -o-transform: translateX(0);
+    }
+}
+
+@keyframes slide-left {
+    to {
+        transform: translateX(0);
+        -webkit-transform: translateX(0);
+        -moz-transform: translateX(0);
+        -o-transform: translateX(0);
+    }
+}
+
+.slide-right {
+    -webkit-transform: translateX(-150px);
+    -ms-transform: translateX(-150px);
+    transform: translateX(-150px);
+    -webkit-animation: slide-up 0.8s ease forwards;
+    animation: slide-up 0.8s ease forwards;
+}
+
+@-webkit-keyframes slide-right {
+    to {
+        transform: translateX(0);
+        -webkit-transform: translateX(0);
+        -moz-transform: translateX(0);
+        -o-transform: translateX(0);
+    }
+}
+
+@keyframes slide-right {
+    to {
+        transform: translateX(0);
+        -webkit-transform: translateX(0);
+        -moz-transform: translateX(0);
+        -o-transform: translateX(0);
+    }
+}
+
+.shine:before {
+    content: "";
+    z-index: 9999;
+    position: absolute;
+    height: 50%;
+    width: 50%;
+    top: 50%;
+    left: 50%;
+    background: -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(45%, rgba(255, 255, 255, 0.3)), color-stop(50%, rgba(255, 255, 255, 0.7)), color-stop(55%, rgba(255, 255, 255, 0.3)), to(transparent));
+    background: -webkit-linear-gradient(transparent 0%, rgba(255, 255, 255, 0.3) 45%, rgba(255, 255, 255, 0.7) 50%, rgba(255, 255, 255, 0.3) 55%, transparent 100%);
+    background: -o-linear-gradient(transparent 0%, rgba(255, 255, 255, 0.3) 45%, rgba(255, 255, 255, 0.7) 50%, rgba(255, 255, 255, 0.3) 55%, transparent 100%);
+    background: linear-gradient(transparent 0%, rgba(255, 255, 255, 0.3) 45%, rgba(255, 255, 255, 0.7) 50%, rgba(255, 255, 255, 0.3) 55%, transparent 100%);
+    -webkit-transition: all 0.5s cubic-bezier(0.4, 0, 1, 1);
+    -o-transition: all 0.5s cubic-bezier(0.4, 0, 1, 1);
+    transition: all 0.5s cubic-bezier(0.4, 0, 1, 1);
+    -webkit-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    -webkit-animation: shine 1s infinite forwards;
+    animation: shine 1s infinite forwards;
+}
+
+@-webkit-keyframes shine {
+    0% {
+        left: 0%;
+    }
+
+    10% {
+        left: 10%;
+    }
+
+    30% {
+        left: 30%;
+    }
+
+    50% {
+        left: 50%;
+    }
+
+    70% {
+        left: 70%;
+    }
+
+    90% {
+        left: 90%;
+    }
+
+    100% {
+        left: 100%;
+    }
+}
+
+@keyframes shine {
+    0% {
+        left: 0%;
+    }
+
+    10% {
+        left: 10%;
+    }
+
+    30% {
+        left: 30%;
+    }
+
+    50% {
+        left: 50%;
+    }
+
+    70% {
+        left: 70%;
+    }
+
+    90% {
+        left: 90%;
+    }
+
+    100% {
+        left: 100%;
+    }
+}
