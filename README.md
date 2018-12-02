@@ -1,6 +1,6 @@
 # Simple Animations
 
-Create fantastic animations using minimal effort. See the full [Demo][https://divakarmanivel.github.io/simple-animations/]
+Create fantastic animations using minimal effort. See the full [Demo](https://divakarmanivel.github.io/simple-animations/)
 
 # Setup
 
