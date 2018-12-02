@@ -1,6 +1,6 @@
 # Simple Animations
 
-Create fantastic animations using minimal effort.
+Create fantastic animations using minimal effort. See the full [Demo][https://divakarmanivel.github.io/simple-animations/]
 
 # Setup
 
@@ -24,6 +24,8 @@ Add the required animation class to any div
 ```html
     <div class="slide-up">I will slide up!</div>
 ```
+
+More animations to be added soon!
 
 # Contribution
 
