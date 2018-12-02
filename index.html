@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Simple Animations</title>
+    <meta name="viewport" content="initial-scale=1.0">
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="./dist/simple-animations.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <style>
+        html {
+            width: 100%;
+            height: 100%;
+        }
+
+        body {
+            background: #333;
+            display: flex;
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        .test-wrapper {
+            background: #222;
+            padding: 10px;
+            border-radius: 12px;
+            width: 40%;
+            height: 100%;
+        }
+
+        #test {
+            background: #F44336;
+            width: 100px;
+            height: 100px;
+            position: absolute;
+            left: 18%;
+            top: 42%;
+            left: calc(20% - 50px);
+            top: calc(50% - 50px);
+            border-radius: 4px;
+        }
+
+        .console {
+            text-align: center;
+            align-self: center;
+            width: 60%;
+        }
+
+        .title {
+            color: #fff;
+            text-decoration: underline;
+            margin: 20px 0;
+        }
+
+        .console button {
+            background: #222;
+            border: 2px solid #111;
+            padding: 10px 20px;
+            color: #fff;
+            border-radius: 4px;
+            font-family: 'Montserrat', sans-serif;
+            margin: 10px;
+            cursor: pointer;
+        }
+
+        .styles {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            max-width: 400px;
+            margin: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="test-wrapper">
+        <div id="test"></div>
+    </div>
+    <div class="console">
+        <div id="type" class="title">SELECT STYLE</div>
+        <div class="styles">
+            <button data-style="slide-up" onclick="startAnim(event)">slide-up</button>
+            <button data-style="slide-down" onclick="startAnim(event)">slide-down</button>
+            <button data-style="slide-left" onclick="startAnim(event)">slide-left</button>
+            <button data-style="slide-right" onclick="startAnim(event)">slide-right</button>
+            <button data-style="blur-in" onclick="startAnim(event)">blur-in</button>
+            <button data-style="blur-out" onclick="startAnim(event)">blur-out</button>
+        </div>
+    </div>
+    <script>
+        function startAnim(e) {
+            var style = e.target.dataset.style;
+            document.getElementById("test").className = style;
+        }
+    </script>
+</body>
+
+</html>
