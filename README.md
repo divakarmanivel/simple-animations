@@ -1,6 +1,6 @@
 # Simple Animations
 
-Create fantastic animations using minimal effort. See the full [Demo](https://divakarmanivel.github.io/simple-animations/)
+Create fantastic animations using minimal effort.
 
 # Setup
 
@@ -13,7 +13,6 @@ Add this line in the head tag of index.html as:
   ..
   <!-- Simple Animation CSS -->
   <link rel="stylesheet" type="text/css" href="./css/simple-animation.css" />
-  ..
 </head>
 ```
 
