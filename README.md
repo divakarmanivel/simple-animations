@@ -9,12 +9,12 @@ Copy dist/simple-animations.css to your applications folder.
 Add this line in the head tag of index.html as:
 
 ```html
-    <head>
-    ..
-    <!-- Simple Animation CSS -->
-    <link rel="stylesheet" type="text/css" href="./css/simple-animation.css" />
-    ..
-    </head>
+<head>
+  ..
+  <!-- Simple Animation CSS -->
+  <link rel="stylesheet" type="text/css" href="./css/simple-animation.css" />
+  ..
+</head>
 ```
 
 # Usage
@@ -22,10 +22,8 @@ Add this line in the head tag of index.html as:
 Add the required animation class to any div
 
 ```html
-    <div class="slide-up">I will slide up!</div>
+<div class="slide-up">I will slide up!</div>
 ```
-
-More animations to be added soon!
 
 # Contribution
 
@@ -35,6 +33,6 @@ I welcome pull requests from all! Thanks in advance! Visit our [Contributions](C
 
 Visit our [Code of Conduct](CODE_OF_CONDUCT.md) page for an overview on our ground rules.
 
- # License
+# License
 
 Created and Maintained by Divakar Manivel. Licensed under [MIT](LICENSE).
