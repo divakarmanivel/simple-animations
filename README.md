@@ -4,15 +4,15 @@ Create fantastic animations using minimal effort.
 
 # Setup
 
-Copy dist/simple-animations.css to your applications folder.
+Copy dist/simple-animations.min.css to your document's folder.
 
-Add this line in the head tag of index.html as:
+Add this line in the head tag of html file as:
 
 ```html
 <head>
   ..
   <!-- Simple Animation CSS -->
-  <link rel="stylesheet" type="text/css" href="./css/simple-animation.css" />
+  <link rel="stylesheet" type="text/css" href="./css/simple-animations.min.css" />
 </head>
 ```
 
