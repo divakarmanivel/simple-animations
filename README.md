@@ -1,3 +1,7 @@
+<p align="center">
+<img src="./simple.png" alt="Simple logo"/>
+</p>
+
 # Simple Animations
 
 Create fantastic animations using minimal effort.
